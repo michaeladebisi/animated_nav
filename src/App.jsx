@@ -5,6 +5,7 @@ import MainLayout from './components/layout/MainLayout'
 import Home from './pages/Home'
 import Service from './pages/Service'
 import Contact from './pages/Contact'
+import About from './pages/About'
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <Routes>
                 <Route path='/' element={<MainLayout />}>
                     <Route index element={<Home />} />
+                    <Route path='about' element={<About />} />
                     <Route path='service' element={<Service />} />
                     <Route path='contact' element={<Contact />} />
                 </Route>

@@ -2,9 +2,9 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className='page contact'>
+        <div className='page about'>
 
-        <h1>Contact</h1>
+        <h1>About</h1>
        
         <p className='para'>Praesent sociosqu purus dictumst suscipit cursus vitae aenean congue nullam metus aenean consequat elit. Porttitor ultricies neque nam sapien platea curabitur senectus aliquet dictum. Sit cras euismod integer consectetur pharetra aptent elementum maecenas cubilia ante suscipit. Hendrerit donec cubilia dictum, id luctus elementum per, vestibulum facilisis purus velit feugiat metus hac! Libero platea sollicitudin, duis hendrerit aenean ut, interdum mattis tellus. Dictum vivamus aliquet maecenas, venenatis lacinia imperdiet elementum, pretium turpis curae sit mi inceptos duis.
         </p>
